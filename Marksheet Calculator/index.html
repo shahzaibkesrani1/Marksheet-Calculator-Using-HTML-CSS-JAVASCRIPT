@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form class="style">
+    <h1 class="mks">Marksheet Calculator</h1>
+    <input type="text" placeholder="Enter Your First Name" id="fname"><br><br>
+    <input type="text" placeholder="Enter Your Last Name" id="lname"><br><br>
+    <input type="number" name="" id="maths" placeholder="Enter Your Maths Marks"><br><br>
+    <input type="number" name="" id="computer" placeholder="Enter Your Computer Marks"><br><br>
+    <input type="number" id="english" name="" placeholder="Enter Your English Marks"><br><br>
+    <input type="number" id="pst" name="" placeholder="Enter Your Pst Marks"><br><br>
+    <button class="btn" type="button" onclick="calculate()">Check Result</button>
+</form>
+    <div id="result" style="display:none;">
+        <h2 id="text">Student Card</h2>
+        <p id="chn">Name: <span id="fullname"></span></p>
+        <p id="chne">Maths Marks : <span id="mathscore"></span></p>
+        <p id="chnn">English Marks: <span id="englishscore"></span></p>
+        <p id="chnnn">Computer Marks: <span id="csscore"></span></p>
+        <p id="chnnnn">PST Marks: <span id="pstscore"></span></p>
+        <p id="chnge">Total Marks: <span id="totalmarks"></span></p>
+        <p id="chnfd">Percentage: <span id="percentage"></span></p>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
